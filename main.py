@@ -42,10 +42,13 @@ median1 = Median[0]
 median2 = Median[1]
 median3 = Median[2]
 
-print("Lowest 3 Countries with the most Visitors:", Top1, Top2, Top3)
-print("Visitor numbers from Lowest 3 Countries:", top1, top2, top3)
-print("Mean visitor numbers from Lowest 3 Countries", Mean1, Mean2, Mean3)
-print("Median visitor numbers from Lowest 3 Countries:", median1, median2, median3)
+print("3 Countries with the Lowest Visitors:", Top1,",", Top2,",",Top3)
+
+print("Visitor numbers from Lowest 3 Countries:", top1,",", top2,",",top3)
+
+print("Mean visitor numbers from Lowest 3 Countries:", Mean1,",", Mean2,",", Mean3)
+
+print("Median visitor numbers from Lowest 3 Countries:", median1,",", median2,",", median3)
 
 import numpy as np
 date_sum = asia.sum(axis=1)
