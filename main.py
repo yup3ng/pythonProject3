@@ -29,7 +29,7 @@ top3 = Sum[Top3]
 Mean = asia.mean(axis=0)
 Mean = Mean.sort_values(ascending=True)
 print(Mean)
-
+#vbnvbbbbbbbbbbbbbbbbb
 Mean1 = round(Mean[0],2)
 Mean2 = round(Mean[1],2)
 Mean3 = round(Mean[2],2)
